@@ -104,7 +104,7 @@ public class HXMLParser {
             field.setAccessible(true);
             Annotation[] annotations = field.getAnnotations();
             if(annotations.length == 0){
-                // // TODO: 2016/5/27 做一些处理
+
                 continue;
             }
             if(annotations[0] instanceof Head){
@@ -112,7 +112,7 @@ public class HXMLParser {
             }else if(annotations[0] instanceof Body){
                 bodyMap.put(field.getName(), (String)field.get(object));
             }else{
-                //// TODO: 2016/5/27 处理
+
             }
         }
         Writer writer = new StringWriter();

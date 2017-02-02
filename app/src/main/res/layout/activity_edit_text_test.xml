@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:onClick="forgetPassword"
+        android:text="忘记密码？"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/passwordCombines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/forget"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <ImageView
+            android:id="@+id/password_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/password" />
+
+        <!-- android:inputType="numberPassword"表明只能接受数字密码 -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/show_password"
+            android:layout_toRightOf="@id/password_img"
+            android:hint="请输入6位字符密码"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+        <ImageButton
+            android:id="@id/show_password"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/cancel_password"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="editText"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            android:src="@drawable/show_password" />
+
+        <ImageButton
+            android:id="@id/cancel_password"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="editText"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/passwordCombines"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/account_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/account" />
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/cancel_account"
+            android:layout_toRightOf="@id/account_img"
+            android:hint="请填写登录邮箱"
+            android:maxLines="1" />
+
+        <ImageButton
+            android:id="@id/cancel_account"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="editText"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forget"
+        android:layout_centerHorizontal="true"
+        android:enabled="false"
+        android:text="登录" />
+</RelativeLayout>

@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             protected List<ActivityInfoEntity> doInBackground(Void... params) {
-                List<ActivityInfoEntity> result = new ArrayList<ActivityInfoEntity>();
+                List<ActivityInfoEntity> result = new ArrayList<>();
                 PackageManager packageManager = getPackageManager();
                 String path = getPackageCodePath();
                 PackageInfo packageInfo = packageManager.getPackageArchiveInfo(path, PackageManager.GET_ACTIVITIES);
