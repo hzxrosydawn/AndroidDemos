@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/array_adapter_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startListView"
+        android:text="ArrayAdapter实例"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/simple_adapter_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startListView"
+        android:text="SimpleAdapter实例"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/base_adapter_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startListView"
+        android:text="BaseAdapter实例"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/expandable_list_view_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startListView"
+        android:text="ExpandableListView实例"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/list_activity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startListView"
+        android:text="ListActivity实例"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/grid_view_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startListView"
+        android:text="GridView实例"
+        android:textAllCaps="false" />
+</LinearLayout>
