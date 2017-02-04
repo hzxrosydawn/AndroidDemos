@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidDemos</string>
+    <string name="tip1">下面是使用普通png图像为背景的按钮拉伸前后效果</string>
+    <string name="tip2">下面是使用普通9Patch图像为背景的按钮拉伸前后效果</string>
+    <string name="btn_text1">拉伸前</string>
+    <string name="btn_text2">多输入几个字来观察拉伸后的效果</string>
 </resources>
