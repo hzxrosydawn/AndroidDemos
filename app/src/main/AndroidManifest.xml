@@ -23,7 +23,8 @@
         <activity android:name=".activity.AdapterViewActivity.ExpandableListViewTest" />
         <activity android:name=".activity.AdapterViewActivity.ListActivityTest" />
         <activity android:name=".activity.AdapterViewActivity.SimpleAdapterTest" />
-        <activity android:name=".activity.AdapterViewActivity.GridViewTest"></activity>
+        <activity android:name=".activity.AdapterViewActivity.GridViewTest" />
+        <activity android:name=".activity.AdapterViewActivity.SpinnerTest"></activity>
     </application>
 
 </manifest>

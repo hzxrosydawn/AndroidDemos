@@ -52,4 +52,12 @@
         android:onClick="startListView"
         android:text="GridView实例"
         android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/spinner_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startListView"
+        android:text="Spinner实例"
+        android:textAllCaps="false" />
 </LinearLayout>
