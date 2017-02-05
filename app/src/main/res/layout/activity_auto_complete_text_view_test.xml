@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_auto_complete_text_view_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/auto_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="请输入图书名"
+        android:completionThreshold="5"
+        android:dropDownSelector="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multi_auto_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="请输入多个图书名，以英文逗号分隔"
+        android:completionThreshold="5"
+        android:dropDownSelector="@color/colorAccent"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+</LinearLayout>
