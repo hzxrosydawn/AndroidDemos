@@ -1,4 +1,4 @@
-package com.example.vincenthuang.androiddemos.activity;
+package com.example.vincenthuang.androiddemos.activity.AdapterViewActivity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,14 +7,12 @@ import android.widget.SimpleAdapter;
 import android.widget.StackView;
 
 import com.example.vincenthuang.androiddemos.R;
-import com.example.vincenthuang.androiddemos.Utils.Entry;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Entry(desc = "一个StackView演示界面", createTime = "2017/2/6")
 public class StackViewTest extends AppCompatActivity {
 
     StackView stackView;

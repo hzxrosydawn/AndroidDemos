@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.vincenthuang.androiddemos.R;
 import com.example.vincenthuang.androiddemos.Utils.Entry;
+import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.AdapterViewFlipperTest;
 import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.ArrayAdapterTest;
 import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.BaseAdapterTest;
 import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.ExpandableListViewTest;
@@ -14,6 +15,7 @@ import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.GridVi
 import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.ListActivityTest;
 import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.SimpleAdapterTest;
 import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.SpinnerTest;
+import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.StackViewTest;
 
 @Entry(desc = "一个测试AdapterView常用子类的演示集合", createTime = "2017/2/4")
 public class AdapterViewTest extends AppCompatActivity {
@@ -46,6 +48,13 @@ public class AdapterViewTest extends AppCompatActivity {
                 break;
             case R.id.spinner_btn:
                 startActivity(new Intent(AdapterViewTest.this, SpinnerTest.class));
+                break;
+            case R.id.stack_view_btn:
+                startActivity(new Intent(AdapterViewTest.this, StackViewTest.class));
+                break;
+            case R.id.adapter_view_flipper_btn:
+                startActivity(new Intent(AdapterViewTest.this, AdapterViewFlipperTest.class));
+                break;
             default:
                 break;
         }
