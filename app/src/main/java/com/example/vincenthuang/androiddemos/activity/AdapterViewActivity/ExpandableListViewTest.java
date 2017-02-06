@@ -141,19 +141,6 @@ public class ExpandableListViewTest extends AppCompatActivity {
                 return true;
             }
         });
-
-        /*//设置列表项组的悬浮显示效果
-        expandableListView.setOnScrollListener(new AbsListView.OnScrollListener() {
-            @Override
-            public void onScrollStateChanged(AbsListView view, int scrollState) {
-
-            }
-
-            @Override
-            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
-
-            }
-        });*/
     }
 
     public void showToast(String heroString) {

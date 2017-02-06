@@ -92,7 +92,7 @@ public class ProgressBarTest extends AppCompatActivity {
         //为数组元素赋值
         data[dataLength++] = (int) (Math.random() * 100);
         try {
-            Thread.sleep(100);
+            Thread.sleep(50);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

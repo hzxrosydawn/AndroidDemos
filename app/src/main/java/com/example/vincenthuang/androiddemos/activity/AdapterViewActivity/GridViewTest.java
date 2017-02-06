@@ -54,5 +54,4 @@ public class GridViewTest extends AppCompatActivity {
             }
         });
     }
-
 }

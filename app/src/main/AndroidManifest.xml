@@ -26,7 +26,8 @@
         <activity android:name=".activity.AdapterViewActivity.GridViewTest" />
         <activity android:name=".activity.AdapterViewActivity.SpinnerTest" />
         <activity android:name=".activity.AutoCompleteTextViewTest" />
-        <activity android:name=".activity.ProgressBarTest"></activity>
+        <activity android:name=".activity.ProgressBarTest" />
+        <activity android:name=".activity.StackViewTest"></activity>
     </application>
 
 </manifest>
