@@ -30,7 +30,9 @@
         <activity android:name=".activity.StackViewTest" />
         <activity android:name=".activity.StackViewTest" />
         <activity android:name=".activity.AdapterViewFlipper" />
-        <activity android:name=".activity.AdapterViewFlipperTest"></activity>
+        <activity android:name=".activity.AdapterViewFlipperTest" />
+        <activity android:name=".activity.ViewSwitcherTest" />
+        <activity android:name=".activity.ImageSwitcherTest"></activity>
     </application>
 
 </manifest>
