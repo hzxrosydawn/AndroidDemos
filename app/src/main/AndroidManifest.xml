@@ -32,7 +32,9 @@
         <activity android:name=".activity.AdapterViewFlipper" />
         <activity android:name=".activity.AdapterViewFlipperTest" />
         <activity android:name=".activity.ViewSwitcherTest" />
-        <activity android:name=".activity.ImageSwitcherTest"></activity>
+        <activity android:name=".activity.ImageSwitcherTest" />
+        <activity android:name=".activity.TextSwitcherTest" />
+        <activity android:name=".activity.ViewFlipperTest"></activity>
     </application>
 
 </manifest>
