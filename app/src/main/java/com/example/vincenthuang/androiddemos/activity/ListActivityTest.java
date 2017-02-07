@@ -1,4 +1,4 @@
-package com.example.vincenthuang.androiddemos.activity.AdapterViewActivity;
+package com.example.vincenthuang.androiddemos.activity;
 
 import android.app.ListActivity;
 import android.os.Bundle;

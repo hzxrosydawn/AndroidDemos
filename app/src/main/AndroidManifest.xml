@@ -18,16 +18,19 @@
         <activity android:name=".activity.EditTextTest" />
         <activity android:name=".activity.NinePatchTest" />
         <activity android:name=".activity.AdapterViewTest" />
-        <activity android:name=".activity.AdapterViewActivity.ArrayAdapterTest" />
-        <activity android:name=".activity.AdapterViewActivity.BaseAdapterTest" />
-        <activity android:name=".activity.AdapterViewActivity.ExpandableListViewTest" />
-        <activity android:name=".activity.AdapterViewActivity.ListActivityTest" />
-        <activity android:name=".activity.AdapterViewActivity.SimpleAdapterTest" />
-        <activity android:name=".activity.AdapterViewActivity.GridViewTest" />
-        <activity android:name=".activity.AdapterViewActivity.SpinnerTest" />
+        <activity android:name=".activity.ArrayAdapterTest" />
+        <activity android:name=".activity.BaseAdapterTest" />
+        <activity android:name=".activity.ExpandableListViewTest" />
+        <activity android:name=".activity.ListActivityTest" />
+        <activity android:name=".activity.SimpleAdapterTest" />
+        <activity android:name=".activity.GridViewTest" />
+        <activity android:name=".activity.SpinnerTest" />
         <activity android:name=".activity.AutoCompleteTextViewTest" />
         <activity android:name=".activity.ProgressBarTest" />
-        <activity android:name=".activity.StackViewTest"></activity>
+        <activity android:name=".activity.StackViewTest" />
+        <activity android:name=".activity.StackViewTest" />
+        <activity android:name=".activity.AdapterViewFlipper" />
+        <activity android:name=".activity.AdapterViewFlipperTest"></activity>
     </application>
 
 </manifest>

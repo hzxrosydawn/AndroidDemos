@@ -7,15 +7,6 @@ import android.view.View;
 
 import com.example.vincenthuang.androiddemos.R;
 import com.example.vincenthuang.androiddemos.Utils.Entry;
-import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.AdapterViewFlipperTest;
-import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.ArrayAdapterTest;
-import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.BaseAdapterTest;
-import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.ExpandableListViewTest;
-import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.GridViewTest;
-import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.ListActivityTest;
-import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.SimpleAdapterTest;
-import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.SpinnerTest;
-import com.example.vincenthuang.androiddemos.activity.AdapterViewActivity.StackViewTest;
 
 @Entry(desc = "一个测试AdapterView常用子类的演示集合", createTime = "2017/2/4")
 public class AdapterViewTest extends AppCompatActivity {

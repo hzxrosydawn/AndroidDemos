@@ -60,4 +60,20 @@
         android:onClick="startListView"
         android:text="Spinner实例"
         android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/stack_view_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startListView"
+        android:text="StackView实例"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/adapter_view_flipper_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startListView"
+        android:text="AdapterViewFlipper实例"
+        android:textAllCaps="false" />
 </LinearLayout>

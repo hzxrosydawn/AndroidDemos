@@ -1,4 +1,4 @@
-package com.example.vincenthuang.androiddemos.activity.AdapterViewActivity;
+package com.example.vincenthuang.androiddemos.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.example.vincenthuang.androiddemos.activity.AdapterViewActivity;
+package com.example.vincenthuang.androiddemos.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
