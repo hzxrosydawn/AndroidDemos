@@ -35,7 +35,8 @@
         <activity android:name=".activity.ImageSwitcherTest" />
         <activity android:name=".activity.TextSwitcherTest" />
         <activity android:name=".activity.ViewFlipperTest" />
-        <activity android:name=".activity.ToastTest"></activity>
+        <activity android:name=".activity.ToastTest" />
+        <activity android:name=".activity.CalendarViewTest"></activity>
     </application>
 
 </manifest>
