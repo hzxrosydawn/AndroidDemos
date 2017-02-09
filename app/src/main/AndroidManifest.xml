@@ -28,15 +28,14 @@
         <activity android:name=".activity.AutoCompleteTextViewTest" />
         <activity android:name=".activity.ProgressBarTest" />
         <activity android:name=".activity.StackViewTest" />
-        <activity android:name=".activity.StackViewTest" />
-        <activity android:name=".activity.AdapterViewFlipper" />
         <activity android:name=".activity.AdapterViewFlipperTest" />
         <activity android:name=".activity.ViewSwitcherTest" />
         <activity android:name=".activity.ImageSwitcherTest" />
         <activity android:name=".activity.TextSwitcherTest" />
         <activity android:name=".activity.ViewFlipperTest" />
         <activity android:name=".activity.ToastTest" />
-        <activity android:name=".activity.CalendarViewTest"></activity>
+        <activity android:name=".activity.CalendarViewTest" />
+        <activity android:name=".activity.TabHostTest" />
     </application>
 
 </manifest>
