@@ -8,4 +8,7 @@
     <string name="summoner_name">召唤师的名字</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="scroll_text">这是测试滚动视图的文本这是测试滚动视图的文本这是测试滚动视图的文本
+        这是测试滚动视图的文本这是测试滚动视图的文本这是测试滚动视图的文本这是测试滚动视图的文本
+        这是测试滚动视图的文本这是测试滚动视图的文本</string>
 </resources>
