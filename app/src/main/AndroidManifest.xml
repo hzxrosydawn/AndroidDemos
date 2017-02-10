@@ -36,7 +36,9 @@
         <activity android:name=".activity.ToastTest" />
         <activity android:name=".activity.CalendarViewTest" />
         <activity android:name=".activity.TabHostTest" />
-        <activity android:name=".activity.ScrollViewTest"></activity>
+        <activity android:name=".activity.ScrollViewTest" />
+        <activity android:name=".activity.NotificationTest" />
+        <activity android:name=".activity.ShowFengJieActivity"></activity>
     </application>
 
 </manifest>
