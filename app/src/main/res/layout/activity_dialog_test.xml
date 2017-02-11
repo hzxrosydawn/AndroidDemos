@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    tools:context="com.example.vincenthuang.androiddemos.activity.DialogTest">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/simple_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="简单对话框" />
+
+        <Button
+            android:id="@+id/simple_list_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="简单列表对话框" />
+
+        <Button
+            android:id="@+id/single_choice_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="单选列表对话框" />
+
+        <Button
+            android:id="@+id/multi_choice_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="多选列表对话框" />
+
+        <Button
+            android:id="@+id/custom_list_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="自定义列表对话框" />
+
+        <Button
+            android:id="@+id/custom_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="自定义布局对话框" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/popup_window_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="弹出窗口对话框" />
+
+        <Button
+            android:id="@+id/date_picker_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="日期选择器对话框" />
+
+        <Button
+            android:id="@+id/time_picker_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="时间选择器对话框" />
+
+        <Button
+            android:id="@+id/circle_progress_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="环形进度对话框" />
+
+        <Button
+            android:id="@+id/horizontal_progress_dialog_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showDialog"
+            android:text="水平进度对话框" />
+
+    </LinearLayout>
+</LinearLayout>

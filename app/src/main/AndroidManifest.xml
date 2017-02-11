@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.vincenthuang.androiddemos">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -38,7 +43,19 @@
         <activity android:name=".activity.TabHostTest" />
         <activity android:name=".activity.ScrollViewTest" />
         <activity android:name=".activity.NotificationTest" />
-        <activity android:name=".activity.ShowFengJieActivity"></activity>
+        <activity android:name=".activity.ShowFengJieActivity" />
+        <activity android:name=".activity.DialogTest" />
+        <activity android:name=".activity.SimpleDialogTest" />
+        <activity android:name=".activity.SingleChoiceDialogTest" />
+        <activity android:name=".activity.SimpleListDialogTest" />
+        <activity android:name=".activity.MultipleChoiceDialogTest" />
+        <activity android:name=".activity.CustomDialogTest" />
+        <activity android:name=".activity.DatePickerDialogTest" />
+        <activity android:name=".activity.TimePickerDialogTest" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".activity.ProgressDialogTest"></activity>
     </application>
 
 </manifest>

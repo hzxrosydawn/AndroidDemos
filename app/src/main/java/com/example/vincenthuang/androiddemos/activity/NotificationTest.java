@@ -40,7 +40,7 @@ public class NotificationTest extends AppCompatActivity {
                 //设置通知内容
                 .setContentText("如果不满意还有哟")
                 //使用系统默认的声音
-                .setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_LIGHTS)
+                //.setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_LIGHTS)
                 .setWhen(System.currentTimeMillis())
                 //设置通知将要启动程序的Intent
                 .setContentIntent(pendingIntent)
