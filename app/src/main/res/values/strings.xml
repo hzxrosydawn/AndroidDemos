@@ -25,4 +25,21 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <!-- Strings related for menu test -->
+    <string name="menu_test_text"> This is the text for menu testing.\nTo show popup menu to click me.\nTo show context menu of me by long clicking me</string>
+    <string name="text_red">红色</string>
+    <string name="text_green">绿色</string>
+    <string name="text_blue">蓝色</string>
+    <string name="text_black">黑色</string>
+    <string name="font_size">字体大小</string>
+    <string name="font_color">字体颜色</string>
+    <string name="common_item">普通菜单项</string>
+    <string name="font_10">10号字体</string>
+    <string name="font_12">12号字体</string>
+    <string name="font_14">14号字体</string>
+    <string name="font_16">16号字体</string>
+    <string name="font_18">16号字体</string>
+    <string name="caps_text">全部大写</string>
+    <string name="cancel_all_caps_text">取消全部大写显示</string>
 </resources>

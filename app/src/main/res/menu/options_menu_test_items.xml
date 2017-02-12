@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/font_color"
+        android:title="@string/font_color">
+        <!-- 定义一个设置字体颜色的子菜单 -->
+        <menu android:checkableBehavior="single">
+            <!-- 定义三个菜单项 -->
+            <item
+                android:id="@+id/red_item"
+                android:title="@string/text_red" />
+            <item
+                android:id="@+id/green_item"
+                android:title="@string/text_green" />
+            <item
+                android:id="@+id/blue_item"
+                android:title="@string/text_blue" />
+        </menu>
+    </item>
+    <!-- 定义一个普通菜单项 -->
+    <item
+        android:id="@+id/common_item"
+        android:title="@string/common_item" />
+
+    <!-- 定义一个设置字体大小的子菜单 -->
+    <item
+        android:icon="@drawable/font_size"
+        android:title="@string/font_size">
+        <menu>
+            <item
+                android:id="@+id/font_10"
+                android:title="@string/font_10" />
+            <item
+                android:id="@+id/font_12"
+                android:title="@string/font_12" />
+            <item
+                android:id="@+id/font_14"
+                android:title="@string/font_14" />
+            <item
+                android:id="@+id/font_16"
+                android:title="@string/font_16" />
+        </menu>
+    </item>
+</menu>

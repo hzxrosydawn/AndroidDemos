@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <!-- 定义三个菜单项 -->
+        <item
+            android:id="@+id/cyan_item"
+            android:title="@string/text_black" />
+        <item
+            android:id="@+id/font_18"
+            android:title="@string/font_18" />
+        <item
+            android:id="@+id/all_caps_item"
+            android:title="@string/caps_text" />
+        <item
+            android:id="@+id/cancel_all_caps_item"
+            android:title="@string/cancel_all_caps_text" />
+    </group>
+</menu>

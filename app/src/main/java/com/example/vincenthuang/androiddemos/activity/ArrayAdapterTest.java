@@ -13,13 +13,13 @@ public class ArrayAdapterTest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_array_adapter_test);
 
-        ListView arrayAdapterListView = (ListView) findViewById(R.id.array_adapter_view);
+        ListView arrayAdapterListView = (ListView) findViewById(R.id.array_adapter_list_view);
 
         String[] names = {"李小璐", "贾乃亮了", "高圆圆", "赵又廷了"};
 
         //将数组包装成ArrayAdapter
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this,
-                R.layout.array_adapter_test_view, R.id.array_adapter_view, names);
+                R.layout.array_adapter_test_view, R.id.array_adapter_text_view, names);
 
         arrayAdapterListView.setAdapter(arrayAdapter);
     }

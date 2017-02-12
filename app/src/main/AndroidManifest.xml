@@ -45,17 +45,7 @@
         <activity android:name=".activity.NotificationTest" />
         <activity android:name=".activity.ShowFengJieActivity" />
         <activity android:name=".activity.DialogTest" />
-        <activity android:name=".activity.SimpleDialogTest" />
-        <activity android:name=".activity.SingleChoiceDialogTest" />
-        <activity android:name=".activity.SimpleListDialogTest" />
-        <activity android:name=".activity.MultipleChoiceDialogTest" />
-        <activity android:name=".activity.CustomDialogTest" />
-        <activity android:name=".activity.DatePickerDialogTest" />
-        <activity android:name=".activity.TimePickerDialogTest" />
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity android:name=".activity.ProgressDialogTest"></activity>
+        <activity android:name=".activity.MenuTest" />
     </application>
 
 </manifest>
