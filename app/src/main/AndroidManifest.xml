@@ -46,6 +46,15 @@
         <activity android:name=".activity.ShowFengJieActivity" />
         <activity android:name=".activity.DialogTest" />
         <activity android:name=".activity.MenuTest" />
+        <!-- 设置该Activity可以向上返回到指定的父Activity -->
+        <activity
+            android:name=".activity.AppBarTest"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>

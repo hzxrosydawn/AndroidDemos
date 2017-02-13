@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- actionViewClass属性用来指定Action View。collapseActionView 表明了当用户不与该部件交互时，
+    该部件将显示为android:icon属性指定的图标 -->
+    <item
+        android:id="@+id/search_item"
+        android:title="@string/action_text_search"
+        android:icon="@drawable/icon_search_black"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <!-- acitonProvider属性用来指定一个Action Provider-->
+    <item
+        android:id="@+id/action_provider_test_item"
+        android:title="@string/action_text_share"
+        android:icon="@drawable/icon_share_black"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+    <!-- 如果应用栏有足够的空间，则该菜单项将作为一个按钮被添加应用栏中，否则，就添加到溢出菜单中 -->
+    <item
+        android:id="@+id/red_item"
+        android:icon="@drawable/font_color_black"
+        android:title="@string/text_red"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <!-- 该菜单项将会一直列在溢出菜单中，而不会显示在应用栏中 -->
+    <item
+        android:id="@+id/green_item"
+        android:title="@string/text_green"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/blue_item"
+        android:title="@string/text_blue"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/font_10"
+        android:icon="@drawable/font_size_black"
+        android:title="@string/font_10"
+        app:showAsAction="ifRoom" />
+    <!-- 默认使用 -->
+    <item
+        android:id="@+id/font_14"
+        android:title="@string/font_14" />
+    <item
+        android:id="@+id/font_16"
+        android:title="@string/font_16"
+        app:showAsAction="withText" />
+
+</menu>

@@ -38,7 +38,7 @@ public class MenuTest extends AppCompatActivity {
     }
 
 
-    //也可以使用如下方式来处理选项菜单的点击事件
+    //使用如下方式来处理选项菜单的点击事件
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection

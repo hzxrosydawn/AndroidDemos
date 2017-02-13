@@ -27,7 +27,7 @@
     </string>
 
     <!-- Strings related for menu test -->
-    <string name="menu_test_text"> This is the text for menu testing.\nTo show popup menu to click me.\nTo show context menu of me by long clicking me</string>
+    <string name="menu_test_text">This is the text for menu testing.\nTo show popup menu to click me.\nTo show context menu of me by long clicking me.</string>
     <string name="text_red">红色</string>
     <string name="text_green">绿色</string>
     <string name="text_blue">蓝色</string>
@@ -42,4 +42,9 @@
     <string name="font_18">16号字体</string>
     <string name="caps_text">全部大写</string>
     <string name="cancel_all_caps_text">取消全部大写显示</string>
+    <!-- String for Appbar test -->
+    <string name="appbar_test_text">This is the text for app testing.\nTo show overflow menu items, click the overflow icon at the end of the appbar.</string>
+    <string name="test_action_bar_title">AppBar Test</string>
+    <string name="action_text_search"> 搜索 </string>
+    <string name="action_text_share">分享</string>
 </resources>
